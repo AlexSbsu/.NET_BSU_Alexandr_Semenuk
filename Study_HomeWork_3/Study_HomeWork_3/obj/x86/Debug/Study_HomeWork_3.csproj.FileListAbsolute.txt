@@ -1,0 +1,6 @@
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/bin/Debug/Study_HomeWork_3.exe
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/bin/Debug/Study_HomeWork_3.pdb
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/obj/x86/Debug/Study_HomeWork_3.csproj.AssemblyReference.cache
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/obj/x86/Debug/Study_HomeWork_3.csproj.CoreCompileInputs.cache
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/obj/x86/Debug/Study_HomeWork_3.exe
+/home/sechdd/Work/C# manuals+Progs/Progs/C#_mono/Study_HomeWork_3/Study_HomeWork_3/obj/x86/Debug/Study_HomeWork_3.pdb

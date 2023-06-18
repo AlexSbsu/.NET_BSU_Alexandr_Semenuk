@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study_HomeWork_5", "Study_HomeWork_5\Study_HomeWork_5.csproj", "{E91DD2F5-3148-46A0-87FB-591F9C495A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E91DD2F5-3148-46A0-87FB-591F9C495A40}.Debug|x86.ActiveCfg = Debug|x86
+		{E91DD2F5-3148-46A0-87FB-591F9C495A40}.Debug|x86.Build.0 = Debug|x86
+		{E91DD2F5-3148-46A0-87FB-591F9C495A40}.Release|x86.ActiveCfg = Release|x86
+		{E91DD2F5-3148-46A0-87FB-591F9C495A40}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
