@@ -60,6 +60,9 @@ namespace Study_HomeWork_3
                 for (int j = 0; j < stepar[i].Length; j++) Console.Write(stepar[i][j]+ " ");
                 Console.WriteLine();
             }
+            //--------------------------------------1e
+            var varsstring = "string";
+            var varar = new [] {1,1};
             //--------------------------------------2a
             int[] iar = { 1, 2, 3, 4, 5 };
             Stack<int> mStack = new Stack<int>(iar);

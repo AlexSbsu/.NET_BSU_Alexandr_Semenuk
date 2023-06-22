@@ -2,15 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.Study__HomeWork__3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Study_HomeWork_3/Program.cs">
     <Files>
-      <File FileName="Study_HomeWork_3/Program.cs" Line="141" Column="35" />
+      <File FileName="Study_HomeWork_3/Program.cs" Line="155" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Study_HomeWork_3" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

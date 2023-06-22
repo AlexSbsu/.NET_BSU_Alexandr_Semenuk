@@ -1,21 +1,8 @@
 ﻿<Properties StartupConfiguration="{55CB3320-761A-4862-82D0-09C8414D555C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Study_HomeWork_2/Program.cs">
     <Files>
-      <File FileName="Study_HomeWork_2/Program.cs" Line="10" Column="43" />
+      <File FileName="Study_HomeWork_2/Program.cs" Line="25" Column="61" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Study_HomeWork_2" expanded="True">
-            <Node name="Study_HomeWork_2" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Study__HomeWork__2 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
