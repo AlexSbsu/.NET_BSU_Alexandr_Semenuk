@@ -133,8 +133,8 @@ namespace Study_HomeWork_2
             //need C#>=7.3
             //if (tuple1 == tuple2) Console.WriteLine("ТУПЛЫ tuple1 и tuple2 равны");
             //else Console.WriteLine("ТУПЛЫ tuple1 и tuple2 НЕ равны");
-            if (tuple2.Equals(tuple3)) Console.WriteLine("EQUAL(tuple2 and tuple3)");
-            else Console.WriteLine("NOT EQUAL(tuple2 and tuple3)");
+            Console.WriteLine("tuple2 and tuple3 equality=" + tuple2.Equals(tuple3));
+            Console.WriteLine("tuple2 and tuple1 equality=" + tuple2.Equals(tuple1));
         }
     }
 }

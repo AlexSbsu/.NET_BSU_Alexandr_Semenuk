@@ -1,0 +1,6 @@
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/bin/Debug/Study_HomeWork_4.exe
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/bin/Debug/Study_HomeWork_4.pdb
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/obj/x86/Debug/Study_HomeWork_4.csproj.AssemblyReference.cache
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/obj/x86/Debug/Study_HomeWork_4.csproj.CoreCompileInputs.cache
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/obj/x86/Debug/Study_HomeWork_4.exe
+/home/sechdd/Work/GIT_local_repository/.NET_BSU_Alexandr_Semenuk/Study_HomeWork_4/Study_HomeWork_4/obj/x86/Debug/Study_HomeWork_4.pdb
