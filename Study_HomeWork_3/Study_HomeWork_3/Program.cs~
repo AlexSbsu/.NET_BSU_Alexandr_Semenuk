@@ -25,12 +25,17 @@ namespace Study_HomeWork_3
         public static void Main(string[] args)
         {
             //--------------------------------------1a
-            int[,] ar = new int[,] { { 1, 1, 1 }, { 2, 2, 2 } };
-            for (int i = 0; i < ar.GetLength(0); i++)
+            try 
             {
-                for (int j = 0; j < ar.GetLength(1); j++) Console.Write(ar[i, j] + " ");
-                Console.WriteLine();
+                int[,] ar = new int[,] { { 1, 1, 1 }, { 2, 2, 2 } };
+                for (int i = 0; i < ar.GetLength(0); i++)
+                {
+                    for (int j = 0; j < ar.GetLength(1); j++) Console.Write(ar[i, j] + " ");
+                    Console.WriteLine();
+                }
             }
+            catch (IndexOutOfRangeException nre) { Console.WriteLine("!!!EXCEPTION ar[i, j] IndexOutOfRangeException Message : " + nre.Message); }
+            catch (Exception e) { Console.WriteLine("!!!EXCEPTION DEFUALT ar[i, j] Message : " + e.Message); }
             //--------------------------------------1b
             int[] ar1, ar2;
             ar1 = new int[] { 1, 1, 1 };
@@ -44,25 +49,30 @@ namespace Study_HomeWork_3
             for (int i = 0; i < ar1.Length; i++) Console.Write(ar2[i]);
             Console.WriteLine("\nar2");
             ar2 = new int[] { 2, 2, 2 };
+            Console.WriteLine();
             for (int i = 0; i < ar1.Length; i++) Console.Write(ar2[i]);
             if (ar1.Equals(ar2)) Console.WriteLine("\n ar1 Equal to ar2");
-            else Console.WriteLine("\n ar1 NON Equal to ar2");
+            else Console.WriteLine("ar1 NON Equal to ar2");
             //--------------------------------------1c
-            string[] sar = { "!string1!", " string2 ", " @string3@ " };
-            foreach (string s in sar) Console.Write(s);
-            Console.WriteLine("\nlength = " + sar.Length);
-
-            Console.WriteLine("Enter element to change(1-3):");
-            int el = int.Parse(Console.ReadLine());
-            if (el < 1 || el > 3)
+            //--------------------------------------------------------------HW5-1c
+            try
             {
-                Console.WriteLine("value must be 1-3");
-                return;
+                string[] sar = { "!string1!", " string2 ", " @string3@ " };
+                foreach (string s in sar) Console.Write(s);
+                Console.WriteLine("\nlength = " + sar.Length);
+
+                Console.WriteLine("Enter element to change(1-3):");
+                int el = int.Parse(Console.ReadLine());
+                //if (el < 1 || el > 3){Console.WriteLine("value must be 1-3");return;}
+                Console.WriteLine("Enter replacement string: ");
+                sar[el - 1] = Console.ReadLine();
+                foreach (string s in sar) Console.Write(s);
+                Console.WriteLine();
             }
-            Console.WriteLine("Enter replacement string: ");
-            sar[el - 1] = Console.ReadLine();
-            foreach (string s in sar) Console.Write(s);
-            Console.WriteLine();
+            catch (IndexOutOfRangeException nre) 
+                { Console.WriteLine("!!!EXCEPTION sar[el - 1] = Console.ReadLine(); IndexOutOfRangeException Message : " + nre.Message); }
+            catch (Exception e) 
+                { Console.WriteLine("!!!EXCEPTION DEFUALT sar[el - 1] = Console.ReadLine(); Message : " + e.Message); }
             //--------------------------------------1d
             double[][] stepar = new double[][]
             {
@@ -81,20 +91,31 @@ namespace Study_HomeWork_3
             //--------------------------------------2a
             Console.WriteLine("--------------------------------------2a");
             int[] iar = { 1, 2, 3, 4, 5 };
-            Stack<int> mStack = new Stack<int>(iar);
-            mStack.Push(6);
-            Console.WriteLine("mStack on Top :" + mStack.Peek());
-            while (mStack.Count > 0) Console.WriteLine("mStack picked and cleared next-> :" + mStack.Pop());
-            mStack.Push(6);
-            mStack.Clear();
-            if (mStack.Count == 0) Console.WriteLine("mStack IS EMPTY");
+            //--Stack
+                Stack<int> mStack = new Stack<int>(iar);
+                mStack.Push(6);
+                Console.WriteLine("mStack on Top :" + mStack.Peek());
+                while (mStack.Count > 0) Console.WriteLine("mStack picked and cleared next-> :" + mStack.Pop());
+                mStack.Push(6);
+                mStack.Clear();
+                if (mStack.Count == 0) Console.WriteLine("mStack IS EMPTY");
+            //--------------------------------------------------------------HW5-1c EXCEPTION
+            try { mStack.Pop(); }//to generate exception 
+            catch (Exception e)
+            { Console.WriteLine("!!!EXCEPTION DEFUALT mStack.Pop() Message : " + e.Message); }
             //--Queue
-            Queue<int> mQue = new Queue<int>(iar);
-            mQue.Enqueue(6);
-            Console.WriteLine("mQue FIRST :" + mQue.Peek());
-            while (mQue.Count > 0) Console.WriteLine("mQue next-> :" + mQue.Dequeue());
-            mQue.Clear();
-            if (mQue.Count == 0) Console.WriteLine("mQue IS EMPTY");
+                Queue<int> mQue = new Queue<int>(iar);
+                mQue.Enqueue(6);
+                Console.WriteLine("mQue FIRST :" + mQue.Peek());
+                while (mQue.Count > 0) Console.WriteLine("mQue next-> :" + mQue.Dequeue());
+                mQue.Clear();
+                if (mQue.Count == 0) Console.WriteLine("mQue IS EMPTY");
+
+            //--------------------------------------------------------------HW5-1c EXCEPTION
+            try { mQue.Dequeue(); }
+            catch (Exception e)
+            { Console.WriteLine("!!!EXCEPTION DEFUALT mQue.Dequeue() Message : " + e.Message); }
+
             //--List
             List<int> mList = new List<int> { 1, 2, 3, 4, 5 };
             mList.Add(6);
@@ -115,6 +136,11 @@ namespace Study_HomeWork_3
             for (int i = 0; i < mDict.Count; i++) Console.WriteLine("mDict next-> :" + mDict[i].ToString());
             mDict.Clear();
             if (mDict.Count == 0) Console.WriteLine("mDict IS EMPTY");
+
+            //--------------------------------------------------------------HW5-1c EXCEPTION
+            try { Console.WriteLine(mDict[3].ToString()); }
+            catch (Exception e)
+            { Console.WriteLine("!!!EXCEPTION DEFUALT mDict[3].ToString() Message : " + e.Message); }
             //--------------------------------------2b
             Console.WriteLine("--------------------------------------2b");
             List<List<int>> m2list = new List<List<int>>();
@@ -122,11 +148,20 @@ namespace Study_HomeWork_3
             m2list.Add(new List<int> { 2, 2, 2 });
             m2list.Add(new List<int> { 3, 3, 3 });
 
-            for (int i = 0; i < m2list.Count; i++)
+            //--------------------------------------------------------------HW5-1c
+            try
             {
-                for (int j = 0; j < m2list[i].Count; j++) Console.Write(m2list[i][j].ToString() + " ");
-                Console.WriteLine();
+                for (int i = 0; i < m2list.Count; i++)
+                {
+                    for (int j = 0; j < m2list[i].Count; j++) Console.Write(m2list[i][j].ToString() + " ");
+                    Console.WriteLine();
+                }
+                Console.WriteLine(m2list[10].Count);//to generate exception
             }
+            catch (IndexOutOfRangeException e)
+            { Console.WriteLine("!!!EXCEPTION IndexOutOfRangeException m2list[10].Count Message : " + e.Message); }
+            catch (Exception e)
+            { Console.WriteLine("!!!EXCEPTION DEFUALT m2list[10].Count Message : " + e.Message); }
             //--------------------------------------3a
             Console.WriteLine("--------------------------------------3a");
             string[] month_ar = {"January","February","March","April","June","July","August","May","December","September",
@@ -161,7 +196,7 @@ namespace Study_HomeWork_3
             Console.WriteLine("\n Monthes contain 'u' and length>=4:");
             foreach (string str in arr) Console.Write(str + " ");
             //--------------------------------------3b
-            Console.WriteLine("--------------------------------------3b");
+            Console.WriteLine("\n--------------------------------------3b");
             months[] mymonths = {
                 new months("December", "winter", 9),  new months("January", "winter", 1), new months("February", "winter", 2),
                 new months("March", "spring", 3),     new months("April", "spring", 4),   new months("May", "spring", 8),
@@ -230,7 +265,7 @@ namespace Study_HomeWork_3
             //---
             lis2 = from ls1 in mymonth_list
                    where (ls1.name.ToString().Contains('u') && ls1.name.Length >= 4)
-                  orderby ls1.name
+                   orderby ls1.name
                    select ls1.name;
             Console.WriteLine("\nLIST -  Monthes contain 'u' and length>=4:");
             foreach (var str in lis2) Console.WriteLine(str + " ");
@@ -255,6 +290,7 @@ namespace Study_HomeWork_3
                         select en1;
             Console.WriteLine("\nEnum -  Winter and Summer monthes:");
             foreach (var str in enum1) Console.WriteLine(str + " ");
+
             //---alphabet order
             enum1 = from en1 in enar
                     orderby en1
