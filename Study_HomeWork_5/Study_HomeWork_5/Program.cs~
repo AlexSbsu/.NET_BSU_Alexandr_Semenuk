@@ -20,7 +20,7 @@ namespace Study_HomeWork_5
     {
         public static void Main()
         {
-            //--------------------------------------1a
+            //---------------------------------------1a
             double n;
          
             try
