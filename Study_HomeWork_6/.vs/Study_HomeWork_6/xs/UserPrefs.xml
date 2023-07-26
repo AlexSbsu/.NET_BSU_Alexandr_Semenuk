@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{AC7DADF6-D421-49EC-84B3-B3F89CD38305}|Default">
+  <MonoDevelop.Ide.ItemProperties.Study__HomeWork__6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Study_HomeWork_6/Program.cs">
+    <Files>
+      <File FileName="Study_HomeWork_6/Program.cs" Line="19" Column="60" />
+      <File FileName="Study_HomeWork_6/Order.cs" Line="108" Column="45" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
