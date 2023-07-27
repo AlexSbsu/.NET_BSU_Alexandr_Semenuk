@@ -1,0 +1,14 @@
+﻿using System;
+namespace Study_HomeWork_8
+{
+    internal class BaseClass
+    {
+        protected static int id;
+
+
+        public BaseClass()
+        {
+ 
+        }
+    }
+}
