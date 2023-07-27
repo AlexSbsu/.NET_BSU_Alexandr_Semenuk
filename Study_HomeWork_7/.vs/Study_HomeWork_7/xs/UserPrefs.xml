@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{4D27BA77-464D-4FB6-ACBB-AE075812B17A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Study_HomeWork_7/Product.cs">
+    <Files>
+      <File FileName="Study_HomeWork_7/Program.cs" Line="24" Column="83" />
+      <File FileName="Study_HomeWork_7/User.cs" Line="49" Column="42" />
+      <File FileName="Study_HomeWork_7/Product.cs" Line="21" Column="9" />
+      <File FileName="Study_HomeWork_7/Order.cs" Line="98" Column="9" />
+      <File FileName="Study_HomeWork_7/DiscountProduct.cs" Line="8" Column="92" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Study_HomeWork_7" expanded="True">
+            <Node name="Study_HomeWork_7" expanded="True">
+              <Node name="Product.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Study__HomeWork__7 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
