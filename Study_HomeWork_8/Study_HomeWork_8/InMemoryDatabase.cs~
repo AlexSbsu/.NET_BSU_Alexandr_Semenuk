@@ -30,26 +30,35 @@ namespace Study_HomeWork_8
 
             DiscountProduct discount_product1 = new DiscountProduct("prod3", "prod3 description", 200, 50);
         }
-
+        //Users
         public void addUser(User newuser)
         {
             users.Add(newuser);
         }
-
         public List<User> GetUsers()
         {
             List<User> copyusers = new List<User>(users);
             return copyusers;
         }
+        //Products
         public List<Product> GetProducts()
         {
             List<Product> copyproducts = new List<Product>(products);
             return copyproducts;
         }
+        public void addProduct(Product newproduct)
+        {
+            products.Add(newproduct);
+        }
+        //Orders
         public List<Order> GetOrders()
         {
             List<Order> copyorders = new List<Order>(orders);
             return copyorders;
+        }
+        public void addOrder(Order neworder)
+        {
+            orders.Add(neworder);
         }
     }
 }

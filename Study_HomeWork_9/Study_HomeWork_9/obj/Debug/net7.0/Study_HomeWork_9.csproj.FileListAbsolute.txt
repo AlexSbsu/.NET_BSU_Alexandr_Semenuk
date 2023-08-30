@@ -1,0 +1,15 @@
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.csproj.AssemblyReference.cache
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.AssemblyInfoInputs.cache
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.AssemblyInfo.cs
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.csproj.CoreCompileInputs.cache
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\bin\Debug\net7.0\Study_HomeWork_9.exe
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\bin\Debug\net7.0\Study_HomeWork_9.deps.json
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\bin\Debug\net7.0\Study_HomeWork_9.runtimeconfig.json
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\bin\Debug\net7.0\Study_HomeWork_9.dll
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\bin\Debug\net7.0\Study_HomeWork_9.pdb
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.dll
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\refint\Study_HomeWork_9.dll
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.pdb
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\Study_HomeWork_9.genruntimeconfig.cache
+D:\C#_Project\Study_HomeWork_9\Study_HomeWork_9\obj\Debug\net7.0\ref\Study_HomeWork_9.dll
