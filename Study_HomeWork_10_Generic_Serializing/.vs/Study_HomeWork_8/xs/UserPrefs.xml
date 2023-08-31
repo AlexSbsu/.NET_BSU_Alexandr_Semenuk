@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{FD769888-BC86-4E18-A469-143048E97333}|Default">
+  <MonoDevelop.Ide.ItemProperties.Study__HomeWork__8 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Study_HomeWork_8/IDBInterface.cs">
+    <Files>
+      <File FileName="Study_HomeWork_8/Program.cs" Line="1" Column="1" />
+      <File FileName="Study_HomeWork_8/InMemoryDatabase.cs" Line="5" Column="2" />
+      <File FileName="Study_HomeWork_8/IDBInterface.cs" Line="20" Column="1" />
+      <File FileName="Study_HomeWork_8/BaseModel.cs" Line="28" Column="1" />
+      <File FileName="Study_HomeWork_8/User.cs" Line="51" Column="37" />
+      <File FileName="Study_HomeWork_8/Product.cs" Line="40" Column="39" />
+      <File FileName="Study_HomeWork_8/Order.cs" Line="42" Column="36" />
+      <File FileName="Study_HomeWork_8/DiscountProduct.cs" Line="2" Column="27" />
+      <File FileName="Study_HomeWork_8/PhoneHelper.cs" Line="6" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Study_HomeWork_8" expanded="True">
+            <Node name="Study_HomeWork_8" expanded="True">
+              <Node name="IDBInterface.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

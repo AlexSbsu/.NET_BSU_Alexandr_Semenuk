@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LxamFf5jscmz60vHl/lO40EuD0XGjswg8O4MaOVkH0ne+yczMHt3EdLZO/QRbyBSq/l1vt8WEYxhQdASIUd5Qw==",
+  "success": true,
+  "projectFilePath": "D:\\C#_Project\\Study_HomeWork_10_generic\\Study_HomeWork_9\\Study_HomeWork_10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
